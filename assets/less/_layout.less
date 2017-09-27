@@ -1,0 +1,115 @@
+//
+// Site Layout
+// --------------------------------------------------
+
+
+// Device agnostic layout styles. Construct the grid and box models here.
+// -------------------
+
+body {
+	font-size: @fontSize;
+	line-height: @lineHeight;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: @lineHeight;
+}
+
+.container { // kept for utility
+	.container();
+	margin: 0 auto;
+	position: relative;
+	margin-top: -10px;
+}
+
+.primary-content {
+	.column(7.5);
+}
+
+.secondary-content {
+	.column(4);
+}
+
+.homepage-header .description {
+	.column(10);
+}
+
+// full width layout
+.fullwidth {
+	.primary-content {
+		.column(12);
+	}
+	.products {
+		.product {
+			.column(3.85);
+		}
+	}
+}
+
+.menu-secondary {
+	ul {
+		li {
+			.column(3);
+		}
+	}
+}
+
+footer.primary {
+	.details {
+		.column(3);
+		float: right;
+	}
+}
+
+// homepage layout
+.page-links {
+	.two-links {
+		.column(6);
+	}
+	.three-links{
+		.column(4);
+	}
+}
+
+.homepage-blocks {
+	.large-feature {
+		.column(12);
+		.text {
+			.column(4.5);
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		.image {
+			.column(7);
+			margin: 0;
+			float: right;
+		}
+	}
+	.small-feature {
+		.column(6);
+	}
+}
+
+.homepage-sidebar {
+	float: left;
+	.widget_recent_news_items {
+		.column(8);
+	}
+	aside {
+		.column(4);
+	}
+}
+
+.manager {
+	.img-wrap {
+		.column(2);
+	}
+	.text {
+		.column(4.5);
+	}
+}
+.images,
+.videos {
+	li {
+		.column(2.25);
+	}
+}

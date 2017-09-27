@@ -1,0 +1,202 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+body {
+	color: @textColor;
+	font-family: @paragraphFont;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+// Headings
+// -------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: @headingFont;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+	margin-top: 0.75em;
+	margin-bottom: 0.25em;
+}
+h2 {
+	font-size: 2.25em;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+	font-weight: 300;
+}
+h3 {
+	font-size: 1.5em;
+	margin-top: 1.25em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+h4 {
+	font-size: 1.25em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+}
+h5 {
+	font-size: 1.125em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+h6 {
+	font-size: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+img[class*="wp-image"] {
+	border: 2px solid @darkGrey;
+	//.box-shadow(0 1px 1px @darkGrey);
+}
+
+// Paragraph
+// -------------------
+
+p {
+	margin: 1em 0;
+	font-weight: 300;
+	font-size: 1.125em;
+	line-height: 1.4;
+}
+a {
+	color: @textColor;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+// Basic Elements
+// -------------------
+
+abbr,
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+address {
+	font-size: 1em;
+	font-style: italic;
+}
+
+blockquote {
+	margin: 1em 0;
+	padding: 0 0 0 4em;
+	color: @secondaryColor;
+	font-style: italic;
+	font-size: .9em;
+	font-weight: 300;
+	line-height: 160%;
+	position: relative;
+	&:before {
+		content: "“";
+		font-size: 6em;
+		position: absolute;
+		left: -5px;
+		top: 25px;
+		font-weight: 500;
+		font-family: 'Alegreya Sans';
+	}
+}
+
+cite {
+	font-style: italic;
+}
+
+code {
+	font-size: 1em;
+	font-family: monospace;
+	background: @baseColor;
+	border: 1px solid darken(@baseColor, 5%);
+	padding: 0.125em 0.25em;
+	line-height: 150%;
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+strong,
+b {
+	font-weight: bold;
+}
+
+hr {
+	outline: none;
+	border: none;
+	margin: 1em 0;
+	padding: 0;
+	border-top: 1px solid @baseColor;
+}
+
+ol,
+ul {
+	margin: 1em 0;
+	padding: 0 0 0 2em;
+
+	li {
+		font-size: 1.125em;
+		font-weight: 300;
+		line-height: 1.4;
+		margin-bottom: 0.5em;
+		list-style-position: outside;
+	}
+}
+ul li { list-style: disc; }
+ol li { list-style: decimal; }
+
+// Form
+// -------------------
+
+form {
+	margin: 1em 0;
+}
+
+// Descriptions
+// -------------------
+
+dl {
+	margin: 1em 0;
+
+	dt {
+		font-weight: bold;
+	}
+	dd {
+		margin: 0 0 0.5em;
+	}
+}
+
+// Tables
+// -------------------
+
+table {
+	width: 100%;
+	margin: 1em 0;
+
+	th {
+		padding: 0.5em;
+		border: 1px solid @baseColor;
+		background: lighten(@baseColor, 2.5%);
+		text-align: left;
+		font-weight: bold;
+	}
+	td {
+		padding: 0.5em;
+		border: 1px solid @baseColor;
+	}
+}

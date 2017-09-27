@@ -1,0 +1,215 @@
+.homepage-header {
+	background-color: @textColor;
+	color: @primaryColor;
+	background-image: url('../img/bg-overlay.png');
+	background-position-y: -100px;
+	padding-bottom: 40px;
+	.description {
+		padding-bottom: 80px;
+		h1 {
+			padding-top: 150px;
+			font-size: 4.5em;
+			font-weight: 300;
+			line-height: 100%;
+			letter-spacing: 0.0125em;
+			margin-top: 10px;
+		}
+		.underline {
+			border-bottom: 3px solid @secondaryColor;
+			width: 75%;
+		}
+		p {
+			width: 50%;
+			color: @baseColor;
+			font-weight: 500;
+			font-size: 1.35em;
+			line-height: 175%;
+		}
+		a {
+			color: @baseColor;
+			border-bottom: 1px solid @baseColor;
+			.transition(.1s linear);
+			&:hover {
+				color: @primaryColor;
+				border-bottom: 1px solid @primaryColor;
+				text-decoration: none;
+			}
+		}
+	}
+	.page-links {
+		padding-top: 100px;
+		position: relative;
+		a {
+			color: @baseColor;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+		.page-link {
+			color: @baseColor;
+			bottom: 0;
+			border-bottom: 10px solid @lightGrey;
+			font-size: .8em;
+			margin-bottom: 10px;
+			.transition(.2s linear);
+			&:hover {
+				border-bottom: 10px solid @secondaryColor;
+				h5 {
+					color: @secondaryColor;
+				}
+			}
+			h5 {
+				margin-top: 0;
+				font-size: 1.25em;
+				margin-bottom: -10px;
+				.transition(.2s linear);
+			}
+			.img-wrap {
+				display:inline-block;
+				float: left;
+				width: 90px;
+				height: 90px;
+				margin-bottom: 10px;
+				img {
+					filter: grayscale(100%);
+					// Browser Specific
+					-webkit-filter: grayscale(100%);
+					-moz-filter: grayscale(100%);
+					-o-filter: grayscale(100%);
+					-ms-filter: grayscale(100%);
+				}
+				&:before {
+					content: " ";
+					background: rgba(106,194,243, .4);
+					width: 90px;
+					height: 90px;
+					z-index: 1;
+					display: block;
+					position: absolute;
+				}
+			}
+			.text {
+				float: left;
+				padding-left: 10px;
+				width: 60%;
+				line-height: 140%;
+			}
+		}
+	}
+}
+
+.homepage-block {
+	background-color: @baseColor;
+	border-bottom: 10px solid @darkGrey;
+	margin: 40px 0 0;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	&.large-feature {
+		z-index: 0;
+		p {
+			margin-top: 0;
+		}
+		h2 {
+			margin-bottom: 0;
+			margin-top: .5em;
+		}
+		.button-secondary {
+			text-align: center;
+			position: relative;
+			font-size: 1.25em;
+			padding: 12px 40px 12px 20px;
+			font-weight: 500;
+		}
+		.image {
+			position: relative;
+			margin-bottom: -10px !important;
+			z-index: 1;
+			span {
+				position: absolute;
+				right: 5px;
+				bottom: 5px;
+				color: @lightGrey;
+				font-weight: 200;
+				float: right;
+				margin-top: 0.25em;
+				font-size: 0.8em;
+			}
+			.image-border {
+				width: 100%;
+				height: 10px;
+				position: absolute;
+				z-index: 2;
+				background-color: black;
+				margin-top: -10px;
+				opacity: .35;
+			}
+		}
+	}
+	&.small-feature {
+		margin-bottom: 20px;
+		position: relative;
+		h2 {
+			font-size: 1.75em;
+			margin-top: .5em;
+			font-weight: 600;
+		}
+		.text {
+			margin-left: 20px;
+			margin-right: 20px;
+			min-height: 140px;
+			.button {
+				position: absolute;
+				top: 15px;
+				right: 15px;
+				padding: 10px 30px 10px 10px;
+				font-weight: 500;
+				font-size: 1.1em;
+				.button-text {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+		.image {
+			position: relative;
+			margin-bottom: -10px;
+			z-index: 1;
+			.image-border {
+				width: 100%;
+				height: 10px;
+				position: absolute;
+				z-index: 2;
+				background-color: black;
+				margin-top: -10px;
+				opacity: .35;
+			}
+		}
+	}
+}
+
+.homepage-sidebar {
+	padding: 10px 0;
+	aside {
+		background-color: @baseColor;
+		border-bottom: 10px solid @darkGrey;
+		margin-bottom: 20px;
+		.transition(.2s linear);
+		h6 {
+			font-size: 1.75em;
+			font-weight: 600;
+			font-family: @headingFont;
+			// &:hover {
+			// 	color: @primaryColor;
+			// }
+		}
+		&:hover {
+			//border-bottom: 10px solid @secondaryColor;
+		}
+		.textwidget {
+			padding: 0 15px 15px;
+			font-size: 1em;
+		}
+	}
+}

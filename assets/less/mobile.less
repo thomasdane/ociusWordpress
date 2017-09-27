@@ -1,0 +1,193 @@
+//
+// Responsive CSS File - Mobile < 768px
+// --------------------------------------------------
+
+
+// Grid Variables
+// -------------------
+
+@containerWidth: 100%;
+@columnCount:    1;
+@gutterRatio:    10%;
+
+
+// Type Variables
+// -------------------
+
+@fontSize: 16px;
+@lineHeight: 140%;
+
+
+// Base Styles
+// -------------------
+
+@import "_variables.less"; // site variables
+@import "_mixins.less"; // grid and mixins
+
+@media (max-width: 767px) {
+
+	@import "_layout.less";
+
+
+	// Custom Styles
+	// -------------------
+
+	// Type
+	h2 {
+		font-size: 1.25em;
+	}
+	h3 {
+		font-size: 1em;
+	}
+	p {
+		font-weight: 500;
+		font-size: .9em;
+	}
+	// mobile menu
+	#show-menu {
+		display: block;
+	}
+
+	#wpadminbar {
+		display: none;
+	}
+
+	header.primary {
+		position: fixed;
+		height: 70px;
+		background: @baseColor;
+		z-index: 2;
+		.img-wrap {
+			img {
+				padding-top: 30px;
+				width: 130px;
+				left: 20px;
+			}
+		}
+		.main-menu {
+			display: none;
+			position: inherit;
+			background: @baseColor;
+			top: 81px;
+			border-top: 1px solid @textColor;
+			.menu-primary {
+				border-bottom: 1px solid @textColor;
+				padding: 10px 0;
+				li {
+					padding-right: 50px !important;
+				}
+				li, a {
+					display: block;
+					padding: .25em .3em .1em;
+				}
+				.menu-item-has-children {
+					#toggle {
+						display: block;
+						float: right;
+						position: absolute;
+						top: 3px;
+						right: 5px;
+						font-size: 1.25em;
+					}
+				}
+				.sub-menu {
+					display: none;
+					position: inherit;
+					text-align: right;
+					margin-top: 15px;
+					li {
+						padding: 10px 10px 0 !important;
+						a {
+							color: @textColor;
+							font-size: .9em;
+							text-transform: uppercase;
+							background-color: @lightGrey;
+							padding: 5px;
+							display: inline;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.homepage-header {
+		.description {
+			padding: 0 20px;
+			font-size: .75em;
+			margin-top: -50px;
+			p {
+				width: 100%;
+			}
+		}
+		.page-links {
+			padding-top: 20px;
+			.page-link {
+				margin-bottom: 30px;
+				border-bottom: none;
+				&:hover {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+
+	.homepage-blocks {
+		p {
+			font-size: .8em;
+		}
+		.large-feature {
+			margin-top: 28px;
+			.text {
+				margin-left: 20px;
+				margin-bottom: 20px;
+			}
+			.image {
+				width: 100%;
+			}
+		}
+		.small-feature {
+			margin-top: 15px;
+			margin-bottom: 5px;
+			.text {
+				.button {
+					position: relative;
+					top: 0;
+					left: 0;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+
+	.page-header {
+		font-size: .9em;
+		padding: 0 10px 5px;
+		min-height: 150px;
+	}
+
+	.page-content {
+		.primary-content {
+			&:before {
+				display: none;
+			}
+			&.single {
+				width: 95%;
+				margin: 0 10px;
+				.title {
+					line-height: 100%;
+					font-size: 2em;
+					margin-bottom: 0;
+				}
+			}
+		}
+		.secondary-content {
+			position: relative;
+			margin: 0;
+			width: 100%;
+			&:after {
+				display: none;
+			}
+		}
+	}
+}

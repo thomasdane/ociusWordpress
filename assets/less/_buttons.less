@@ -1,0 +1,99 @@
+//
+// Buttons
+// --------------------------------------------------
+
+button,
+.button,
+[class^="button"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	padding: 0.625em 1.25em;
+	margin: 0 0 0.625em;
+	font-family: inherit;
+	font-size: 1em;
+	border: none;
+	outline: none;
+	background: @textColor;
+	color: @baseColor;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	.inline-block();
+
+	&:hover {
+		background: lighten(@textColor, 10%);
+		text-decoration: none;
+		color: @baseColor;
+	}
+	&:active {
+		background: lighten(@textColor, 10%);
+	}
+
+	&.disabled {
+		background: lighten(@textColor, 10%);
+		color: @baseColor;
+		cursor: default;
+	}
+	&.social {
+		padding: 5px;
+	}
+	&.read-more {
+		display: inline-block;
+		padding: 8px 15px;
+		font-weight: 500;
+		text-transform: capitalize;
+		margin: 0 0 15px;
+		background: @lightGrey;
+		color: darken(@darkGrey, 30%);
+		border-radius: 3px;
+		.transition(.2s linear);
+	}
+}
+
+button.primary,
+.button-primary,
+input.button-primary {
+	background: @primaryColor;
+	color: white;
+
+	&:hover {
+		background: darken(@primaryColor, 5%);
+	}
+	&:active {
+		background: darken(@primaryColor, 5%);
+	}
+
+	&.disabled {
+		background: darken(@primaryColor, 5%);
+		color: @primaryColor;
+		cursor: default;
+	}
+}
+
+button.secondary,
+.button-secondary,
+input.button-secondary {
+	background: @secondaryColor;
+	color: white;
+	font-size: 1.25em;
+	padding: 12px 20px;
+	font-weight: 500;
+
+	&:hover {
+		background: darken(@secondaryColor, 5%);
+	}
+	&:active {
+		background: darken(@secondaryColor, 10%);
+	}
+
+	&.disabled {
+		background: lighten(@secondaryColor, 20%);
+		color: @secondaryColor;
+		cursor: default;
+	}
+}
