@@ -9,7 +9,7 @@
 			)); ?>
 			<div class="details">
 				<a class="img-wrap" href="/">
-					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/09/Ocius-Globe-Logo.jpg" alt="" class="logo">
+					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2017/09/Ocius-Globe-Logo.png" alt="" class="logo">
 				</a>
 				<?php the_field('address', 'option') ?>
 				<div class="social">
