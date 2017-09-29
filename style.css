@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
     line-height:140%;
 }
 .container{
-    width:960px;
+    width:768px;
     margin:0 auto;
     position:relative;
     margin-top:-10px;
@@ -224,7 +224,7 @@ p{
     line-height:1.4;
 }
 a{
-    color:#125192;
+    color:#000000;
     text-decoration:none;
 }
 a:hover{
@@ -1924,7 +1924,7 @@ header.primary .main-menu .menu-primary .sub-menu li a{
 Tablet Support;
 --------------------------------------------------------------*/
 @media (min-width:768px) and (max-width:959px){
-    body{
+body{
     font-size:14px;
     line-height:140%;
 }
