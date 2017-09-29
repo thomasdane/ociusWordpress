@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6{
     font-family:'Effra',sans-serif;font-weight:bold
 }
 .underline{
-	border-bottom: 1px solid #ff4c4e;
+	border-bottom: 1px solid #135292;
 	height: 1px;
     width: 150px;
 	margin:auto;
@@ -101,7 +101,7 @@ h1{
 h1:after{
 	content:"";
 	height: 1px;
-	border-bottom: 1px solid #ff4c4e;
+	border-bottom: 1px solid #135292;
     width: 150px;
 	margin:auto;
 }
@@ -138,7 +138,7 @@ address{
     font-size:1em;font-style:italic
 }
 blockquote{
-    margin:1em 0;padding:0 0 0 4em;color:#ff4c4e;font-style:italic;font-size:.9em;font-weight:300;line-height:160%;position:relative
+    margin:1em 0;padding:0 0 0 4em;color:#135292;font-style:italic;font-size:.9em;font-weight:300;line-height:160%;position:relative
 }blockquote:before{
     content:"“";font-size:6em;position:absolute;left:-5px;top:25px;font-weight:500;font-family:'Alegreya Sans'
 }
@@ -248,7 +248,7 @@ button.primary.disabled,.button-primary.disabled,input.button-primary.disabled{
     background:#48cbf5;color:#60d2f6;cursor:default
 }
 button.secondary,.button-secondary,input.button-secondary{
-    background:#ff4c4e;color:white;font-size:1.25em;padding:12px 20px;font-weight:500
+    background:#135292;color:white;font-size:1.25em;padding:12px 20px;font-weight:500
 }button.secondary:hover,.button-secondary:hover,input.button-secondary:hover{
     background:#ff3235
 }
@@ -256,7 +256,7 @@ button.secondary:active,.button-secondary:active,input.button-secondary:active{
     background:#ff191c
 }
 button.secondary.disabled,.button-secondary.disabled,input.button-secondary.disabled{
-    background:#ffb2b3;color:#ff4c4e;cursor:default
+    background:#ffb2b3;color:#135292;cursor:default
 }
 ul[class*="menu-"]{
     margin:1em 0;padding:0
@@ -511,7 +511,7 @@ ul.menu-secondary li .sub-menu{
     padding-top:150px;font-size:4.5em;font-weight:300;line-height:100%;letter-spacing:0.0125em;margin-top:10px
 }
 .homepage-header .description .underline{
-    border-bottom:3px solid #ff4c4e;width:75%
+    border-bottom:3px solid #135292;width:75%
 }
 .homepage-header .description p{
     width:50%;color:#fff;font-weight:500;font-size:1.35em;line-height:175%
@@ -531,9 +531,9 @@ ul.menu-secondary li .sub-menu{
 .homepage-header .page-links .page-link{
     color:#fff;bottom:0;border-bottom:10px solid #efefef;font-size:.8em;margin-bottom:10px;-webkit-transition:.2s linear;-moz-transition:.2s linear;-o-transition:.2s linear;transition:.2s linear
 }.homepage-header .page-links .page-link:hover{
-    border-bottom:10px solid #ff4c4e
+    border-bottom:10px solid #135292
 }.homepage-header .page-links .page-link:hover h5{
-    color:#ff4c4e
+    color:#135292
 }
 .homepage-header .page-links .page-link h5{
     margin-top:0;font-size:1.25em;margin-bottom:-10px;-webkit-transition:.2s linear;-moz-transition:.2s linear;-o-transition:.2s linear;transition:.2s linear
@@ -713,7 +713,7 @@ header.primary .mobile-menu{
     max-width:100%;height:auto
 }
 .page-content.fullwidth .primary-content a{
-    color:#ff4c4e
+    color:#135292
 }
 .page-content.fullwidth .primary-content p:first-child{
     background:#efefef;font-weight:300;padding:30px;text-align:center;font-size:1.5em
