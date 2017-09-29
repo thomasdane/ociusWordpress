@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
     line-height:140%;
 }
 .container{
-    width:768px;
+    width:100%;
     margin:0 auto;
     position:relative;
     margin-top:-10px;
