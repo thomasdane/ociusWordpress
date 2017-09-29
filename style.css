@@ -782,7 +782,7 @@ footer.primary .details{
     font-size:.9em;font-weight:500
 }
 footer.primary .details img{
-    width:100%;height:auto
+    width:100px;height:auto
 }
 footer.primary .details .social{
     font-size:1.125em
@@ -805,6 +805,9 @@ footer.primary .details .social{
 }
 .gallery .gallery-icon{
     padding:0 5px
+}
+#bitnami-banner{
+	display:none;
 }
 
 
