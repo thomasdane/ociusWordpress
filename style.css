@@ -168,7 +168,7 @@ footer.primary .details{
 Header Fonts;
 --------------------------------------------------------------*/
 body{
-    color:#125192;
+    color:#000000;
     font-family:'Aktiv Grotesk',sans-serif;
     -webkit-font-smoothing:antialiased;
 }
@@ -208,6 +208,11 @@ h6{
     font-size:1em;
     margin-top:0.5em;
     margin-bottom:0.5em;
+}
+.underline {
+	border-bottom: 1px solid #ff4c4e;
+    width: 150px;
+	margin:auto;
 }
 img[class*="wp-image"]{
     border:2px solid #d4dde1;
@@ -1330,7 +1335,8 @@ header.primary .mobile-menu:hover{
     height:auto;
 }
 .page-content.fullwidth .primary-content a{
-    color:#ff4c4e;
+    color:#125192;
+	font-weight: bold;
 }
 .page-content.fullwidth .primary-content p:first-child{
     background:#efefef;
@@ -1349,9 +1355,6 @@ header.primary .mobile-menu:hover{
     position:relative;
     min-height:500px;
     padding-bottom:50px;
-}
-.page-content .primary-content article{
-    padding-top:20px;
 }
 .page-content .primary-content article p:first-child{
     font-size:1.5em;
@@ -1522,43 +1525,43 @@ HiDPI Laptop;
  h1,h2,h3,h4,h5,h6{
     line-height:140%;
 }
- .container{
+.container{
     width:1140px;
     margin:0 auto;
     position:relative;
     margin-top:-10px;
 }
- .primary-content{
+.primary-content{
     float:left;
     width:684px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .secondary-content{
+.secondary-content{
     float:left;
     width:351.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .homepage-header .description{
+.homepage-header .description{
     float:left;
     width:921.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .fullwidth .primary-content{
+.fullwidth .primary-content{
     float:left;
     width:1111.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .fullwidth .products .product{
+.fullwidth .products .product{
     float:left;
     width:337.25000000000006px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .menu-secondary ul li{
+.menu-secondary ul li{
     float:left;
     width:256.5px;
     margin-left:14.25px;
@@ -1571,19 +1574,19 @@ HiDPI Laptop;
     margin-right:14.25px;
     float:right;
 }
- .page-links .two-links{
+.page-links .two-links{
     float:left;
     width:541.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .page-links .three-links{
+.page-links .three-links{
     float:left;
     width:351.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .homepage-blocks .large-feature{
+.homepage-blocks .large-feature{
     float:left;
     width:1111.5px;
     margin-left:14.25px;
@@ -1597,7 +1600,7 @@ HiDPI Laptop;
     margin-left:30px;
     margin-right:30px;
 }
- .homepage-blocks .large-feature .image{
+.homepage-blocks .large-feature .image{
     float:left;
     width:636.5px;
     margin-left:14.25px;
@@ -1605,13 +1608,13 @@ HiDPI Laptop;
     margin:0;
     float:right;
 }
- .homepage-blocks .small-feature{
+.homepage-blocks .small-feature{
     float:left;
     width:541.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .homepage-sidebar{
+.homepage-sidebar{
     float:left;
 }
 .homepage-sidebar .widget_recent_news_items{
@@ -1620,25 +1623,25 @@ HiDPI Laptop;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .homepage-sidebar aside{
+.homepage-sidebar aside{
     float:left;
     width:351.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .manager .img-wrap{
+.manager .img-wrap{
     float:left;
     width:161.5px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .manager .text{
+.manager .text{
     float:left;
     width:399px;
     margin-left:14.25px;
     margin-right:14.25px;
 }
- .images li,.videos li{
+.images li,.videos li{
     float:left;
     width:185.25px;
     margin-left:14.25px;
@@ -1657,43 +1660,43 @@ Mobile Support styles;
  h1,h2,h3,h4,h5,h6{
     line-height:140%;
 }
- .container{
+.container{
     width:100%;
     margin:0 auto;
     position:relative;
     margin-top:-10px;
 }
- .primary-content{
+.primary-content{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .secondary-content{
+.secondary-content{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .homepage-header .description{
+.homepage-header .description{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .fullwidth .primary-content{
+.fullwidth .primary-content{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .fullwidth .products .product{
+.fullwidth .products .product{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .menu-secondary ul li{
+.menu-secondary ul li{
     float:left;
     width:90%;
     margin-left:5%;
@@ -1706,19 +1709,19 @@ Mobile Support styles;
     margin-right:5%;
     float:right;
 }
- .page-links .two-links{
+.page-links .two-links{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .page-links .three-links{
+.page-links .three-links{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .homepage-blocks .large-feature{
+.homepage-blocks .large-feature{
     float:left;
     width:90%;
     margin-left:5%;
@@ -1732,7 +1735,7 @@ Mobile Support styles;
     margin-left:30px;
     margin-right:30px;
 }
- .homepage-blocks .large-feature .image{
+.homepage-blocks .large-feature .image{
     float:left;
     width:90%;
     margin-left:5%;
@@ -1740,13 +1743,13 @@ Mobile Support styles;
     margin:0;
     float:right;
 }
- .homepage-blocks .small-feature{
+.homepage-blocks .small-feature{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .homepage-sidebar{
+.homepage-sidebar{
     float:left;
 }
 .homepage-sidebar .widget_recent_news_items{
@@ -1755,25 +1758,25 @@ Mobile Support styles;
     margin-left:5%;
     margin-right:5%;
 }
- .homepage-sidebar aside{
+.homepage-sidebar aside{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .manager .img-wrap{
+.manager .img-wrap{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .manager .text{
+.manager .text{
     float:left;
     width:90%;
     margin-left:5%;
     margin-right:5%;
 }
- .images li,.videos li{
+.images li,.videos li{
     float:left;
     width:90%;
     margin-left:5%;
@@ -1849,7 +1852,7 @@ header.primary .main-menu .menu-primary .sub-menu li a{
     padding:5px;
     display:inline;
 }
- .homepage-header .description{
+.homepage-header .description{
     padding:0 20px;
     font-size:.75em;
     margin-top:-50px;
@@ -1857,7 +1860,7 @@ header.primary .main-menu .menu-primary .sub-menu li a{
 .homepage-header .description p{
     width:100%;
 }
- .homepage-header .page-links{
+.homepage-header .page-links{
     padding-top:20px;
 }
 .homepage-header .page-links .page-link{
@@ -1867,20 +1870,20 @@ header.primary .main-menu .menu-primary .sub-menu li a{
 .homepage-header .page-links .page-link:hover{
     border-bottom:none;
 }
- .homepage-blocks p{
+.homepage-blocks p{
     font-size:.8em;
 }
- .homepage-blocks .large-feature{
+.homepage-blocks .large-feature{
     margin-top:28px;
 }
 .homepage-blocks .large-feature .text{
     margin-left:20px;
     margin-bottom:20px;
 }
- .homepage-blocks .large-feature .image{
+.homepage-blocks .large-feature .image{
     width:100%;
 }
- .homepage-blocks .small-feature{
+.homepage-blocks .small-feature{
     margin-top:15px;
     margin-bottom:5px;
 }
@@ -1890,15 +1893,15 @@ header.primary .main-menu .menu-primary .sub-menu li a{
     left:0;
     margin-bottom:30px;
 }
- .page-header{
+.page-header{
     font-size:.9em;
     padding:0 10px 5px;
     min-height:150px;
 }
- .page-content .primary-content:before{
+.page-content .primary-content:before{
     display:none;
 }
- .page-content .primary-content.single{
+.page-content .primary-content.single{
     width:95%;
     margin:0 10px;
 }
@@ -1907,7 +1910,7 @@ header.primary .main-menu .menu-primary .sub-menu li a{
     font-size:2em;
     margin-bottom:0;
 }
- .page-content .secondary-content{
+.page-content .secondary-content{
     position:relative;
     margin:0;
     width:100%;
@@ -1928,43 +1931,43 @@ Tablet Support;
  h1,h2,h3,h4,h5,h6{
     line-height:140%;
 }
- .container{
+.container{
     width:768px;
     margin:0 auto;
     position:relative;
     margin-top:-10px;
 }
- .primary-content{
+.primary-content{
     float:left;
     width:464px;
     margin-left:8px;
     margin-right:8px;
 }
- .secondary-content{
+.secondary-content{
     float:left;
     width:240px;
     margin-left:8px;
     margin-right:8px;
 }
- .homepage-header .description{
+.homepage-header .description{
     float:left;
     width:624px;
     margin-left:8px;
     margin-right:8px;
 }
- .fullwidth .primary-content{
+.fullwidth .primary-content{
     float:left;
     width:752px;
     margin-left:8px;
     margin-right:8px;
 }
- .fullwidth .products .product{
+.fullwidth .products .product{
     float:left;
     width:230.4px;
     margin-left:8px;
     margin-right:8px;
 }
- .menu-secondary ul li{
+.menu-secondary ul li{
     float:left;
     width:176px;
     margin-left:8px;
@@ -1977,19 +1980,19 @@ Tablet Support;
     margin-right:8px;
     float:right;
 }
- .page-links .two-links{
+.page-links .two-links{
     float:left;
     width:368px;
     margin-left:8px;
     margin-right:8px;
 }
- .page-links .three-links{
+.page-links .three-links{
     float:left;
     width:240px;
     margin-left:8px;
     margin-right:8px;
 }
- .homepage-blocks .large-feature{
+.homepage-blocks .large-feature{
     float:left;
     width:752px;
     margin-left:8px;
@@ -2003,7 +2006,7 @@ Tablet Support;
     margin-left:30px;
     margin-right:30px;
 }
- .homepage-blocks .large-feature .image{
+.homepage-blocks .large-feature .image{
     float:left;
     width:432px;
     margin-left:8px;
@@ -2011,13 +2014,13 @@ Tablet Support;
     margin:0;
     float:right;
 }
- .homepage-blocks .small-feature{
+.homepage-blocks .small-feature{
     float:left;
     width:368px;
     margin-left:8px;
     margin-right:8px;
 }
- .homepage-sidebar{
+.homepage-sidebar{
     float:left;
 }
 .homepage-sidebar .widget_recent_news_items{
@@ -2026,46 +2029,46 @@ Tablet Support;
     margin-left:8px;
     margin-right:8px;
 }
- .homepage-sidebar aside{
+.homepage-sidebar aside{
     float:left;
     width:240px;
     margin-left:8px;
     margin-right:8px;
 }
- .manager .img-wrap{
+.manager .img-wrap{
     float:left;
     width:112px;
     margin-left:8px;
     margin-right:8px;
 }
- .manager .text{
+.manager .text{
     float:left;
     width:272px;
     margin-left:8px;
     margin-right:8px;
 }
- .images li,.videos li{
+.images li,.videos li{
     float:left;
     width:128px;
     margin-left:8px;
     margin-right:8px;
 }
- .menu-primary li a{
+.menu-primary li a{
     padding:2.25em 0.75em 1.75em !important;
 }
- .menu-primary li .sub-menu{
+.menu-primary li .sub-menu{
     margin-top:71px !important;
 }
 .menu-primary li .sub-menu a{
     padding:15px 15px 10px 10px !important;
 }
- .homepage-header .description{
+.homepage-header .description{
     margin:0 20px;
 }
- .large-feature.homepage-block .text{
+.large-feature.homepage-block .text{
     margin:0 24px;
 }
- .small-feature.homepage-block .text .button{
+.small-feature.homepage-block .text .button{
     top:15px;
     right:15px;
 }
