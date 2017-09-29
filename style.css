@@ -1926,7 +1926,7 @@ header.primary .main-menu .menu-primary .sub-menu li a{
 /*--------------------------------------------------------------;
 Tablet Support;
 --------------------------------------------------------------*/
-@media (min-width:768px) and (max-width:959px){
+@media only screen and min-width:768px) and (max-width:959px){
 body{
     font-size:14px;
     line-height:140%;
