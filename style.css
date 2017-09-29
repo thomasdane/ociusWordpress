@@ -511,7 +511,7 @@ ul.menu-secondary li .sub-menu{
     padding-top:150px;font-size:4.5em;font-weight:300;line-height:100%;letter-spacing:0.0125em;margin-top:10px
 }
 .homepage-header .description .underline{
-    border-bottom:3px solid #135292;width:75%
+    border-bottom:3px solid #60d2f6;width:75%
 }
 .homepage-header .description p{
     width:50%;color:#fff;font-weight:500;font-size:1.35em;line-height:175%
@@ -723,8 +723,7 @@ header.primary .mobile-menu{
 }
 .page-content .primary-content{
     position:relative;min-height:500px;padding-bottom:50px
-}.page-content .primary-content article{
-    padding-top:20px
+}
 }.page-content .primary-content article p:first-child{
     font-size:1.5em;font-weight:500;line-height:125%
 }
@@ -934,7 +933,7 @@ footer.primary .details .social{
 }header.primary .main-menu .menu-primary .sub-menu li{
     padding:10px 10px 0 !important
 }header.primary .main-menu .menu-primary .sub-menu li a{
-    color:#001826;font-size:.9em;text-transform:uppercase;background-color:#efefef;padding:5px;display:inline
+    color:#001826;font-size:.9em;text-transform:uppercase;background-color:#efefef;box-shadow: 0 2px 4px rgba(0,0,0,0.2);padding:5px;display:inline
 } .homepage-header .description{
     padding:0 20px;font-size:.75em;margin-top:-50px
 }.homepage-header .description p{
