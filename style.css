@@ -89,8 +89,21 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family:'Effra',sans-serif;font-weight:bold
 }
+.underline{
+	border-bottom: 1px solid #ff4c4e;
+	height: 1px;
+    width: 150px;
+	margin:auto;
+}
 h1{
     font-size:3em;margin-top:0.75em;margin-bottom:0.25em
+}
+h1:after{
+	content:"";
+	height: 1px;
+	border-bottom: 1px solid #ff4c4e;
+    width: 150px;
+	margin:auto;
 }
 h2{
     font-size:2.25em;margin-top:1em;margin-bottom:0.25em;font-weight:300
