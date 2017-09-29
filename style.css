@@ -491,7 +491,7 @@ ul.menu-secondary li .sub-menu{
     padding-left:0;margin-top:0;font-size:1.2em
 }
 .homepage-header{
-    background-color:#125192;color:#60d2f6;background-image:url('../img/bg-overlay.png');background-position-y:-100px;padding-bottom:40px
+    background-color:#125192;color:#60d2f6;
 }.homepage-header .description{
     padding-bottom:80px
 }.homepage-header .description h1{
