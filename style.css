@@ -701,7 +701,7 @@ header.primary .mobile-menu{
     color:#001826
 }
 .page-header{
-    background-color:#125192;min-height:180px;background-image:url('../img/bg-overlay.png');background-position-x:370px
+    background-color:#125192;min-height:180px;
 }.page-header h1,.page-header h2{
     color:#60d2f6;padding-top:80px;margin-top:10px;margin-left:10px
 }.page-header h1 a,.page-header h2 a{
@@ -764,7 +764,7 @@ header.primary .mobile-menu{
     color:#001826;text-decoration:none
 }
 footer.primary{
-    background-color:#125192;width:100%;background-image:url('../img/bg-overlay.png');background-repeat:no-repeat;background-position:560px -50px;margin-top:10px;clear:both;padding:0 0 20px 0
+    background-color:#125192;width:100%;margin-top:10px;clear:both;padding:0 0 20px 0
 }footer.primary .menu-secondary{
     padding:20px 0
 }footer.primary .menu-secondary .sub-menu li{
