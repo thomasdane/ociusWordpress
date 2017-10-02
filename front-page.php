@@ -6,7 +6,6 @@
 		
 		<div class ="front-page">
 			<div class ="header-slider">
-				<?php echo do_shortcode('[crellyslider alias="front_page"]') ?>
 			</div>
 		<?php the_content(); ?>
 		</div>

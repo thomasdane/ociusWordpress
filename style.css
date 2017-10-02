@@ -915,7 +915,7 @@ footer.primary .details .social{
 } #wpadminbar{
     display:none
 } header.primary{
-    position:fixed;height:70px;background:#fff;z-index:2
+    position:fixed;height:70px;background:#fff;z-index:5000
 }header.primary .img-wrap img{
     padding-top:30px;width:130px;left:20px
 } header.primary .main-menu{
