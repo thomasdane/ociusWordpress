@@ -672,7 +672,7 @@ ul.menu-secondary li .sub-menu{
 @font-face{
     font-family:'entypo';src:url('../fonts/entypo.eot?96924851');src:url('../fonts/entypo.eot?96924851#iefix') format('embedded-opentype'),url('../fonts/entypo.woff?96924851') format('woff'),url('../fonts/entypo.ttf?96924851') format('truetype'),url('../fonts/entypo.svg?96924851#entypo') format('svg');font-weight:normal;font-style:normal
 }@font-face{
-    font-family:'entypo-social';src:url('../fonts/entypo-social.eot?96924851');src:url('../fonts/entypo-social.eot?96924851#iefix') format('embedded-opentype'),url('../fonts/entypo-social.woff?96924851') format('woff'),url('../fonts/entypo-social.ttf?96924851') format('truetype'),url('../fonts/entypo-social.svg?96924851#entypo') format('svg');font-weight:normal;font-style:normal
+    font-family:'entypo-social';src:url('../fonts/assets/entypo-social.eot?96924851');src:url('../fonts/entypo-social.eot?96924851#iefix') format('embedded-opentype'),url('../fonts/entypo-social.woff?96924851') format('woff'),url('../fonts/entypo-social.ttf?96924851') format('truetype'),url('../fonts/entypo-social.svg?96924851#entypo') format('svg');font-weight:normal;font-style:normal
 }.video-container{
     position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden
 }
