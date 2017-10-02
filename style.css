@@ -968,6 +968,8 @@ footer.primary .details .social{
     position:relative;margin:0;width:100%
 }.page-content .secondary-content:after{
     display:none
+}.page-content.fullwidth .primary-content article{
+    margin-top:40px
 }
 }
 
